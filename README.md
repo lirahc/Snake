@@ -150,7 +150,7 @@ dra:
 	
 	addi $s3, $s3, 1 #div por 7 o resto vai ser x e outro y
 	addi $s2, $s2, 1
-	b dra
+	b dra 
 	
 dra_end:
 	lw $ra, 36($sp)
